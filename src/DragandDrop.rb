@@ -33,7 +33,7 @@ class Character < WContainerWidget
   end
   
   #the dropEvenet implementation
-  #this method is called when a drop evenet
+  #this method is called when a drop event
   #happens
   def dropEvent(e)
     super
