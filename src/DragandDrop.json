@@ -1,0 +1,7 @@
+{
+"port":8888,
+"servletfile":"DragandDrop",
+"servletclass":"DragandDrop",
+"pidfile":"/tmp/jruby-pidfile",
+"stopfile":"/tmp/jruby-please-stop-"
+}
