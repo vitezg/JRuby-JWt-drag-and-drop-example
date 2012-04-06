@@ -36,7 +36,9 @@ class DragandDrop < WApplication
     setTitle("Drag And Drop")
 
     @plate = WContainerWidget.new getRoot
-
+    t = WText.new "Plate", @plate
+    t.setInline false
+    
     @pizza = WImage.new WLink.new(WFileResource.new("image/png","pizza.png")),"Pizza", @plate
     @chocolate = WImage.new WLink.new(WFileResource.new("image/png","chocolate.png")),"Chocolate", @plate
     @fc = WImage.new WLink.new(WFileResource.new("image/png","fishandchips.png")),"Fish and Chips", @plate
