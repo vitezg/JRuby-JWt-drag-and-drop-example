@@ -91,7 +91,7 @@ class DragandDrop < WApplication
 
     #and let's add the characters
     #@joe has a lightblue background,
-    #is called joe
+    #is called Joe
     #and can only receive pizza and chocolate
     @joe = Character.new(getRoot, "lightblue","Joe")
     @joe.acceptDrops "pizza"
