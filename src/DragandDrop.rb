@@ -37,6 +37,7 @@ class Character < WContainerWidget
   #happens
   def dropEvent(e)
     super
+    
     #get the source widget for the drop event
     #this will be the pizza/chocolate/fish and chips
     #object
